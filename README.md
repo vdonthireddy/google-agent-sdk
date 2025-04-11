@@ -20,6 +20,8 @@ pip install google-adk
 mkdir multi_tool_agent/
 ```
 
+#### Create an .env file and move the contents from the .env-sample file. Make sure api keys are updated.
+
 ### Open the UI using the following command:
 ```
 adk web
