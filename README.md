@@ -19,3 +19,8 @@ pip install google-adk
 ```
 mkdir multi_tool_agent/
 ```
+
+### Open the UI using the following command:
+```
+adk web
+```
