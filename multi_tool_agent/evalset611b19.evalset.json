@@ -1,0 +1,38 @@
+[
+  {
+    "name": "cased943fd",
+    "data": [
+      {
+        "query": "how is the weather in new york?",
+        "expected_tool_use": [
+          {
+            "tool_name": "get_weather",
+            "tool_input": {
+              "city": "new york"
+            }
+          }
+        ],
+        "expected_intermediate_agent_responses": [],
+        "reference": "OK. The weather in New York is sunny with a temperature of 25 degrees Celsius (41 degrees Fahrenheit).\n"
+      },
+      {
+        "query": "what's the time in that city?",
+        "expected_tool_use": [
+          {
+            "tool_name": "get_current_time",
+            "tool_input": {
+              "city": "new york"
+            }
+          }
+        ],
+        "expected_intermediate_agent_responses": [],
+        "reference": "The current time in new york is 2025-04-11 01:21:10 EDT-0400."
+      }
+    ],
+    "initial_session": {
+      "state": {},
+      "app_name": "multi_tool_agent",
+      "user_id": "user"
+    }
+  }
+]
